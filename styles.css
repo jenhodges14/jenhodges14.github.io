@@ -1,0 +1,28 @@
+body {
+      text-align: center;
+      background: url("http://rileyhanson.com/wp-content/uploads/2014/09/website-background-test.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+p {
+      font-size: 25px;
+      color: gray;
+    }
+h1 {
+      font-size: 45px;
+    }
+img {
+      height: 200px;
+      padding-top: 80px;
+    }
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+input[type="submit"] {
+      background: blue;
+      color: white;
+    }
