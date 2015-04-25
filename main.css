@@ -1,0 +1,68 @@
+.nav {
+  background-color: rgba(220, 207, 218, 0.7);
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/38/Macon_night_skyline2.JPG');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: rgba(220, 207, 218, 0.7);
+}
+
+.learn-more h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.portfoliio {
+    background-color: rgba(220, 207, 218, 0.7);
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.portfolio h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.portfolio p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}

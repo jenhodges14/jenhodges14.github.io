@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jen Hodges | Junior Web Developer</title>
-        <link href="styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <img src="https://pbs.twimg.com/profile_images/563831049567080448/Qchgr4UU.jpeg">
-        <h1>Jen Hodges</h1>
-        <p>junior web developer</p>
-        <input type="email" placeholder="Enter email address here!">
-        <input type="submit">
-    </body>
+
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="index.html">Jen Hodges</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Creating beautiful, functional websites</h1>
+        <p>Specializing in Javascript, Bootstrap.css, and responsive web design</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+
+    <div class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Created by Jen Hodges</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://www.tech-coffee.net/wp-content/uploads/2014/09/Website.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://www.tech-coffee.net/wp-content/uploads/2014/09/Website.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://www.tech-coffee.net/wp-content/uploads/2014/09/Website.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Testimonial #1</h3>
+			<p>Creative, beautiful site design!</p>
+			<p><a href="#">See this website</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Testimonial #2</h3>
+			<p>Creative, beautiful site design!</p>
+			<p><a href="#">See this website</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Testimonial #3</h3>
+			<p>Creative, beautiful site design!</p>
+			<p><a href="#">See this website</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
 </html>
