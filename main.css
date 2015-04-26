@@ -2,20 +2,34 @@
   background-color: rgba(220, 207, 218, 0.7);
 }
 
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+.pull-left a {
+  color: rgba(31, 27, 21, 0.9);
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-decoration: none;
 }
 
-.nav li {
+.nav .pull-right {
+  padding-top: 30px;
+}
+.nav .pull-left li {
   display: inline;
 }
 
+.nav .pull-right li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav .pull-right a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .jumbotron {
-  background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/38/Macon_night_skyline2.JPG');
+  background-image:url('macongaskyline.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,31 +52,89 @@
   color: #fff;
 }
 
-.learn-more {
-  background-color: rgba(220, 207, 218, 0.7);
-}
-
-.learn-more h3 {
+.testimonial h3 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
-.learn-more a {
+.testimonial p {
+  text-align: center;
+}
+
+.testimonial a {
   color: #00b0ff;
-}
-
-.portfoliio {
-    background-color: rgba(220, 207, 218, 0.7);
-    border-bottom: 1px solid #dbdbdb;
+  text-align: center;
 }
 
 .portfolio h2 {
     color: #393c3d;
-    font-size: 24px;
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
 }
 
 .portfolio p {
     font-size: 15px;
     margin-bottom: 13px;
 }
+
+.footer {
+  background-color: rgba(220, 207, 218, 0.7);
+  padding: 30px;
+}
+
+.avatar img {
+  border: 3px solid black;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.bio {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bio a {
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 140px;
+  font-size: 20px;
+}
+
+.socialicons li {
+  display: inline;
+}
+
+.socialicons img {
+  height: 40px;
+  width: 40px;
+  margin: 25px;
+}
+
+.pagesbottom h4 {
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+}
+
+.pagesbottom p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.copyright {
+  text-align: center;
+  background-color: rgba(220, 207, 218, 0.7);;
+  padding: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
